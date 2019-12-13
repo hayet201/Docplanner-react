@@ -1,0 +1,668 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  height: 70px;
+  border-bottom: 1px solid gray;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*header*/
+
+header {
+  height: 70px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  box-shadow: 2px 0px 16px -4px #888888;
+}
+
+header .head-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*header .docpalanner{
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}*/
+
+.logo img {
+  width: 404px;
+  height: 30px;
+  margin-top: 18px;
+  padding-left: 113px;
+}
+
+.head-part .menu-head {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 196px;
+  padding-top: 31px;
+}
+
+.head-part .menu-head .menu-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2px;
+  padding-top: -4px;
+}
+
+.head-part .menu-head .about-us {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(0, 179, 155);
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.head-part .menu-head .about-us a:hover {
+  color: rgb(0, 179, 155);
+  cursor: pointer;
+}
+
+.head-part .menu-head .about-us a {
+  text-decoration: none;
+}
+
+.head-part .menu-head .about-us a:link {
+  color: rgb(0, 179, 155);
+}
+
+.head-part .menu-head .about-us a:visited {
+  color: rgb(0, 179, 155);
+}
+
+.head-part .menu-head .about-us a:active {
+  color: rgb(0, 179, 155);
+}
+
+.head-part .menu-head .menu-nav .career {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(194, 199, 199);
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  padding-left: 15px;
+}
+
+.head-part .menu-head .menu-nav .career a:hover {
+  color: rgb(0, 179, 155);
+  cursor: pointer;
+}
+
+.head-part .menu-head .menu-nav .career a {
+  text-decoration: none;
+  color: rgb(194, 199, 199);
+}
+
+.head-part .menu-head .menu-nav .career a:link {
+  color: rgb(194, 199, 199);
+}
+
+.head-part .menu-head .menu-nav .career a:active {
+  color: rgb(194, 199, 199);
+}
+
+.head-part .menu-head .departement {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(194, 199, 199);
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  padding-left: 15px;
+}
+
+.head-part .menu-head .departement a:hover {
+  color: rgb(0, 179, 155) !important;
+  cursor: pointer;
+}
+
+.head-part .menu-head .departement a {
+  text-decoration: none;
+  color: rgb(194, 199, 199);
+}
+
+.head-part .menu-head .departement a:link {
+  color: rgb(194, 199, 199);
+}
+
+.head-part .menu-head .departement a:active {
+  color: rgb(194, 199, 199);
+}
+
+.head-part .menu-head .departement {
+  position: relative;
+  display: inline-block;
+}
+
+.head-part .menu-head .departement .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 203px;
+  list-style: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 14px;
+  Font-weight: 400;
+  color: rgb(194, 199, 199);
+  width: 245px;
+}
+
+.head-part .menu-head .departement .dropdown-content ul {
+  list-style: none;
+}
+
+.head-part .menu-head .departement .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+}
+
+.head-part .menu-head .departement .dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.head-part .menu-head .departement:hover .dropdown-content {
+  display: block;
+}
+
+/*component section1*/
+
+.docplannerlogo {
+  width: 52px;
+  height: 52px;
+  padding-top: 26px;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 34px;
+  Font-weight: 300;
+  color: rgb(0, 179, 155);
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+}
+
+.para p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 14px;
+  Font-weight: 300;
+  Line-height: 33.8px;
+  color: black;
+  width: 378px;
+  text-align: justify;
+  padding-left: 21px;
+}
+
+.healthpara {
+  display: flex;
+  justify-content: center;
+}
+
+.para1 {
+  width: 411px;
+  padding-right: 24px;
+  line-height: 10px;
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 16px;
+  Font-weight: 400;
+  Line-height: 28px;
+  color: rgb(116, 116, 116);
+  text-align: justify;
+}
+
+.para2 {
+  width: 411px;
+  padding-left: 24px;
+  line-height: 10px;
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 16px;
+  Font-weight: 400;
+  Line-height: 28px;
+  color: rgb(116, 116, 116);
+  text-align: justify;
+}
+
+.visits {
+  display: flex;
+  justify-content: center;
+  margin-top: 102px;
+  margin-bottom: 64px;
+}
+
+h6 {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  font-size: 14px;
+  Font-weight: 400;
+  Line-height: 18.2px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 26px;
+  Font-weight: 300;
+  Line-height: 33.8px;
+  color: rgb(255, 255, 255);
+}
+
+/* component section2*/
+
+.visit {
+  display: flex;
+  justify-content: center;
+  padding: 75px;
+}
+
+.box-vert {
+  background-color: #00CCB1;
+  border-radius: 15px;
+  width: 479px;
+  height: 392px;
+  padding-left: 40px;
+  padding-right: -40px;
+  overflow: hidden;
+}
+
+.box-vert img {
+  width: 236px;
+  height: 194px;
+  padding-left: 298px;
+}
+
+.box-vert h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 17px;
+  Font-weight: 300;
+  position: absolute;
+  color: rgb(248, 252, 251);
+  padding-top: 10px;
+}
+
+.box-vert p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 26px;
+  Font-weight: 300;
+  Line-height: 33.8px;
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 85px;
+  padding-top: 31px;
+}
+
+.box-vert select {
+  border-radius: 2px;
+  position: relative;
+  left: -120px;
+  width: 134px;
+  height: 30px;
+}
+
+.box-blue {
+  background-color: #3D83DF;
+  border-radius: 15px;
+  width: 479px;
+  height: 392px;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: -40px;
+  overflow: hidden;
+}
+
+.box-blue p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 26px;
+  Font-weight: 300;
+  Line-height: 33.8px;
+  color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 85px;
+  padding-top: 31px;
+}
+
+.box-blue h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 17px;
+  Font-weight: 300;
+  position: absolute;
+  color: rgb(248, 252, 251);
+  padding-top: 10px;
+}
+
+.box-blue img {
+  width: 236px;
+  height: 194px;
+  padding-left: 298px;
+}
+
+.box-blue select {
+  display: none;
+}
+
+/*component select3*/
+
+.company {
+  display: flex;
+  justify-content: center;
+  margin-top: -29px;
+  margin-bottom: 67px;
+}
+
+.company .global {
+  width: 290px;
+  flex-wrap: wrap;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 21px;
+  Line-height: 40px;
+  color: rgb(0, 179, 155);
+  padding-right: 130px;
+}
+
+.company img {
+  width: 100px;
+  height: 50px;
+  filter: grayscale(1);
+}
+
+.company img:hover {
+  filter: none;
+}
+
+.company div {
+  display: flex;
+  padding: 10px;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 499px;
+}
+
+/*component section4*/
+
+.healthcare-platform {
+  background-color: #DAF7F6;
+  height: 528px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  color: black;
+  margin-bottom: 87px;
+}
+
+.white-box {
+  margin-left: 15px;
+  margin-top: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  font-size: -44px;
+  width: 161px;
+  padding-bottom: 10px;
+}
+
+.white-box1 {
+  width: 161px;
+  height: 213px;
+  margin-left: 15px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+.white-box2 {
+  width: 161px;
+  height: 188px;
+  margin-left: 15px;
+  margin-top: -30px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+.white-box3 {
+  width: 161px;
+  height: 193px;
+  margin-left: 15px;
+  margin-top: -62px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+.healthcare-platform .platform-leaders {
+  display: inline-flex;
+  flex-flow: wrap;
+  padding-left: 185px;
+}
+
+.healthcare-description h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 34px;
+  Font-weight: 300;
+  color: rgb(0, 179, 155);
+}
+
+.healthcare-description {
+  width: 424px;
+  margin-left: 227px;
+}
+
+.healthcare-description p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 14px;
+  Font-weight: 400;
+  Line-height: 24px;
+  color: rgb(116, 116, 116)
+}
+
+.white-box p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 9px;
+  Font-weight: 300;
+  Line-height: 20.8px;
+  color: rgb(65, 63, 63);
+}
+
+.white-box1 p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 9px;
+  Font-weight: 300;
+  Line-height: 20.8px;
+  color: rgb(65, 63, 63);
+}
+
+.white-box2 p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 9px;
+  Font-weight: 300;
+  Line-height: 20.8px;
+  color: rgb(65, 63, 63);
+}
+
+.white-box3 p {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 9px;
+  Font-weight: 300;
+  Line-height: 20.8px;
+  color: rgb(65, 63, 63);
+}
+
+.white-box h1 {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 24px;
+  Font-weight: 300;
+  Line-height: 31.2px;
+  color: rgb(0, 179, 155);
+}
+
+.white-box1 h1 {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 24px;
+  Font-weight: 300;
+  Line-height: 31.2px;
+  color: rgb(0, 179, 155);
+}
+
+.white-box2 h1 {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 24px;
+  Font-weight: 300;
+  Line-height: 31.2px;
+  color: rgb(0, 179, 155);
+}
+
+.white-box3 h1 {
+  font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+  Font-size: 24px;
+  Font-weight: 300;
+  Line-height: 31.2px;
+  color: rgb(0, 179, 155);
+}
+
+/*component5*/
+
+.improve-team h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 30px;
+  Font-weight: 300;
+  Line-height: 39px;
+  color: rgb(0, 179, 155);
+  text-align: center;
+}
+
+.improve .team p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 14px;
+  Font-weight: 400;
+  Line-height: 24px;
+  color: rgb(116, 116, 116);
+  text-align: center;
+  width: 500px;
+  padding-left: 444px;
+}
+
+.galerie-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-left: 151px;
+  padding: 10px;
+  margin-top: 88px;
+  margin-bottom: 100px;
+}
+
+.galerie-images div {
+  border: 1px solid rgb(202, 199, 199);
+  border-radius: 5px;
+  margin-left: 17px;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+.galerie-images div h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 22px;
+  Font-weight: 300;
+  position: relative;
+  left: -99px;
+  color: rgb(133, 136, 135);
+}
+
+.galerie-images div span {
+  right: -89px;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: rgb(18, 22, 224, 0.8);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 17px;
+  Font-weight: 300;
+  position: relative;
+  bottom: 36px;
+  color: rgb(245, 250, 248);
+}
+
+.galerie-images div span:hover {
+  background-color: rgb(18, 22, 224);
+}
+
+.galerie-images div:hover {
+  border: 1px solid rgb(180, 179, 179);
+  border-radius: 5px;
+  margin-left: 17px;
+  margin-bottom: 17px;
+  box-shadow: -9px 0px 33px -14px gray;
+}
+
+.leader .country {
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 12px;
+  Font-weight: 400;
+  color: rgb(171, 171, 171);
+  padding-top: 35px;
+  border-top: 1px solid rgb(231, 229, 229);
+}
+
+/*component6*/
+
+.leader .country a {
+  text-decoration: none;
+  color: rgb(61, 131, 223);
+}
+
+.leader .cookies {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 12px;
+  Font-weight: 400;
+  Line-height: 15.6px;
+  color: rgb(171, 171, 171);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.leader .copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 12px;
+  Font-weight: 400;
+  color: rgb(171, 171, 171);
+  margin-top: 10px;
+}
